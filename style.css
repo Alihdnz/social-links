@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+body {
+    background: var(--body-bg-color);
+}
+
+.profilePicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid var(--purple);
+    padding: 5px;
+}
+
+
+
+.container {
+    margin-top: 126px;
+}
+
+.instagramUser {
+    margin-top:15px;
+    margin-bottom: 17px;
+    color: var(--purple);
+}
+
+.link {
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+.twitterIcon {
+    padding: 0;
+	margin: 0 !important;
+	width: 24px !important;
+	height: 24px !important;
+	background: url(./assets/twitter.svg) center no-repeat;
+	background-size: contain;
+	color: transparent;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+    display: block;
+
+}
+
+.twitchIcon {
+    padding: 0;
+	margin: 0 !important;
+	width: 24px !important;
+	height: 24px !important;
+	background: url(./assets/twitch.svg) center no-repeat;
+	background-size: contain;
+	color: transparent;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+    display: block;
+
+}
+
+.instagramIcon {
+    padding: 0;
+	margin: 0 !important;
+	width: 24px !important;
+	height: 24px !important;
+	background: url(./assets/instagram.svg) center no-repeat;
+	background-size: contain;
+	color: transparent;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+    display: block;
+
+}
+
+.linkedinIcon {
+    padding: 0;
+	margin: 0 !important;
+	width: 24px !important;
+	height: 24px !important;
+	background: url(./assets/linkedin.svg) center no-repeat;
+	background-size: contain;
+	color: transparent;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+    display: block;
+
+}
+
+.githubIcon {
+    padding: 0;
+	margin: 0 !important;
+	width: 24px !important;
+	height: 24px !important;
+	background: url(./assets/github.svg) center no-repeat;
+	background-size: contain;
+	color: transparent;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+    display: block;
+
+}
+
+.icons {
+    margin-top: 68px;
+}

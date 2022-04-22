@@ -1,0 +1,12 @@
+
+
+
+@media screen and (max-height: 700px) {
+    .container {
+        margin-top: 50px;
+    }
+
+    .icons {
+        margin-top: 40px;
+    }
+}
